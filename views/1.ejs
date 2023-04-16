@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    /* Set the background image */
+    body {
+      background-image: url(img/bg2.png);
+      /* background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+     */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      min-height: 100vh;
+     
+    }
+
+    @keyframes move {
+      0% {
+        transform: translate(0, 0);
+      }
+
+      25% {
+        transform: translate(20px, -20px);
+      }
+
+      50% {
+        transform: translate(40px, 0);
+      }
+
+      75% {
+        transform: translate(20px, 20px);
+      }
+
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+
+    /* Apply the animation to the text */
+    .animated {
+      display: inline-block;
+      animation-name: move;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    /* Style the heading */
+    h1 {
+      font-family: "Baloo Bhai", cursive;
+      color: black;
+      font-size: 4em;
+      font-weight: bold;
+      color: cornsilk;
+      text-align: left;
+      text-shadow: 9px 2px #000000;
+      /*margin-top: -622px;*/
+    }
+
+    /* Style the button */
+    button {
+      /* display: block; */
+      /* margin: 0 auto; */
+      padding: 1rem;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 40%;
+      
+      color: #333;
+      cursor: pointer;
+      background-color: olivedrab;
+    color:white;
+     
+    }
+    .container{
+      width:100%;
+      margin-top:255px;
+      display: flex;
+      justify-content: flex-startx  ;
+      align-items: center;
+    }
+    .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <h1><span class="animated">Towers Of Hanoi</span></h1>
+      <button onclick="window.location.href='/2'">Start Game</button>
+    </div>
+  </div>
+</body>
+
+</html>

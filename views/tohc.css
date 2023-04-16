@@ -1,0 +1,165 @@
+body {
+    background-color: #e1e1f4;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    align-content: center;
+}
+
+#title{
+    text-align: center;
+}
+
+/* h1{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: #515ca3;
+    font-family: Lato;
+} */
+h1 {
+    margin: 0;
+    padding: 5vmin;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    font-size: 7.5vmin;
+    font-weight: lighter;
+    text-align: center;
+    background: linear-gradient(to right, rgba(150, 111, 51, 0.4), rgba(150, 111, 51, 0.2)),
+    repeating-linear-gradient(to right, #eec487, #eec487 3vmin, #f3cf9a 3vmin, #f3cf9a 6vmin, #f8d8a2 6vmin, #f8d8a2 9vmin, #f1ca88 9vmin, #f1ca88 12vmin, #f4d09e 12vmin, #f4d09e 15vmin, #faddb0 15vmin, #faddb0 18vmin, #eec88a 18vmin, #eec88a 21vmin);
+}
+
+.moves{
+    font-family: Lato;
+    text-align: center;
+    font-size: 23px;
+    color: #515ca3;
+}
+
+#towers {
+    color: #ffc6c6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+/* .base {
+    position: relative;
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    border-bottom: 9px #421b1b solid;
+    border-radius: 20px;
+} */
+
+.base{
+        position: relative;
+        width: 180px;
+        height: 201px;
+        margin: auto;
+        border-bottom: 17px #421b1b solid;
+        border-radius: 12px;
+}
+
+.line1,
+.line2,
+.line3 {
+    padding: 2px;
+    width: 5px;
+    height: 150px;
+    background: #421b1b;
+    border-radius: 180px;
+    padding-top: 50px;
+    margin: 10px 0 0 65px;
+    position: relative;
+    align-items: center;
+}
+
+#towers li {
+    position: relative;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    top: 170px;
+
+}
+
+#disc7 {
+    background-color: #8300ff;
+    width: 180px;
+    margin: -40px 0 0 -86px;
+}
+/* #8668e8  #91acff  #acefb7  #fbff9b  #8300ff  #ffb663 #ffa8a8*/
+/* #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee. */
+#disc6 {
+    background-color: #ff0000;
+    width: 155px;
+    margin: -40px 0 0 -73px;
+}
+#disc5 {
+    background-color:#008000 ;
+    width: 130px;
+    margin: -40px 0 0 -58px;
+}
+#disc4 {
+    background-color:#ffa500;
+    width: 105px;
+    margin: -40px 0 0 -46px;
+}
+#disc3 {
+    background-color:  #ffff00;
+    width: 80px;
+    margin: -40px 0 0 -34px;
+}
+#disc2 {
+    background-color:#4b0082;
+    width: 55px;
+    margin: -40px 0 0 -22px;
+}
+#disc1 {
+    background-color: #ee82ee;
+    width: 30px;
+    margin: -40px 0 0 -10px;
+}
+
+.buttons{
+    font-family: Lato;
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: #515ca3;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+#discno {
+    font-family: Lato;
+    font-size: 20px;
+    color: #515ca3;
+    margin: auto;
+}
+
+#box{
+    text-size-adjust: 30px;
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    font-family: Lato;
+
+}
+
+#restart{
+    margin: auto;
+}
+
+.buttons:hover{
+    opacity: 1;
+}

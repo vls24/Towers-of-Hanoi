@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+        background-color: #000000;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-attachment: fixed;
+        background-position: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   
+    /* h1 {
+            color: black;
+            font-size: 4em;
+            font-weight: bold;
+            color: cornsilk;
+            text-align: center;
+            text-shadow: 9px 2px #000000;
+        } */
+        .clues {
+          position: absolute;
+    width: 1000px;
+    height: 500px;
+    /* background-color: whitesmoke; */
+    color: bisque;
+    inset: 325px 0 0 478px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+      button{
+        position: absolute;
+    top: 400px;
+    right: 142px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+      }
+      .img {
+        height: 400px;
+        width: 500px;
+        margin-block: 30px;  
+      }
+  </style>
+</head>
+<body>
+      <!-- <center><h1 >Instructions</h1></center> -->
+      <img src="./img/INSTRUCTIONS.png" class="img">
+      <div class="clues">
+      &#9733;  Firstly, the player enters the number of discs they want to play with.<br><br>
+      &#9733;  Then player need to click on the "Restart" button to start the game.<br><br>
+      &#9733;  Only one disk can be moved at a time.<br><br>
+      &#9733;  Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack. In other words, a disk can only be moved if it is the uppermost disk on a stack.<br><br>
+      &#9733;  No larger disk may be placed on top of a smaller disk.<br><br>
+      &#9733;  Try to complete the game with least number of moves possible.
+<button onclick="window.location.href='/3'">Let's Play&#8594;</button>
+    
+</body>
+</html>
